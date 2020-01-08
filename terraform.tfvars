@@ -22,7 +22,7 @@ jenkins_slave_instance_config = {
     root_volume_size        = "30"
     az                      = "ap-southeast-2a"
 }
-slave_min_size = 2
+slave_min_size = 3
 slave_max_size = 6
 slave_desired_capacity = 3
 
