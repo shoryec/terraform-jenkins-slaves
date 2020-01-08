@@ -30,5 +30,6 @@ bastion_sg_id = "sg-0bdaa1a16a5a3031a"
 master_sg_id  = "sg-06643023230350b54"
 slave_sg_id   = "sg-034caef77febff1fd"
 jenkins_username = "admin"
-jenkins_password = "password"
+// Ensure to enter a value for the password
+jenkins_password = ""
 jenkins_credentials_id = "jenkins-slave"
