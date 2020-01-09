@@ -4,10 +4,9 @@ Code developed to provision jenkins slave instaces of the mock enterprise jenkin
 
 This repository stores terraform code which provisions the following resources:
 
-- Application Load Balancer
-- EFS and EFS Mount Targets
-- Rote53 Entry
 - Autoscaling group and launch configuration
+- Cloudwatch Metrics and Alarms
+- Jenkins Slave Cluster Auto-Discovery script
 
 ## Prerequisites
 
